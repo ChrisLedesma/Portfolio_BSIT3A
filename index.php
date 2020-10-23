@@ -3,6 +3,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
 ?>
 <html>
     <head>
+        <title>My Portfolio</title>
         <title></title>
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
