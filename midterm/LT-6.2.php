@@ -33,7 +33,7 @@
                 font-size: 36px;
             }
 </style>
-<div class="header"><a href="" target="_blank">Github</a></div>
+<div class="header"><a href="https://github.com/ChrisLedesma/Portfolio_BSIT3A/blob/main/midterm/LT-6.2.php" target="_blank">Github</a></div>
 <div class="wrap-whole">
 
     <div class="wrap">
