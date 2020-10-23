@@ -31,7 +31,7 @@
         </style>
     </head>
     <body>
-    <div class="header"><a href="" target="_blank">Github</a></div>
+    <div class="header"><a href="https://github.com/ChrisLedesma/Portfolio_BSIT3A/blob/main/midterm/LT-6.1.php" target="_blank">Github</a></div>
         <div class="wrap-whole">
             <div class="wrap">
                 <svg width="900" height="780" style="background:rgb(19, 19, 19)">
