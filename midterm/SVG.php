@@ -18,51 +18,51 @@
                     </image>
                 </svg>
 
-                <object type="image/svg+xml" data="/portfolio/svg/catwatail.svg" class="a"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/catwa2.svg" class="a"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/fly.svg" class="a"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/daisy.svg" class="a"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/guy.svg" class="a"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/mochi.svg" class="a"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/Fence2.svg" class="Fence"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/Fence2.svg" class="Fence2"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/Fence2.svg" class="Fence3"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/BigBrush6.svg" class="BigBrush"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/BigBrush6.svg" class="BigBrush2"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/BigBrush6.svg" class="BigBrush4"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/BigBrush6.svg" class="BigBrush3"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/rose-bundle2.svg" class="rose-bundle4"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/rose-bundle.svg" class="rose-bundle"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/rose-bundle.svg" class="rose-bundle2"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/rose-bundle.svg" class="rose-bundle3"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/rose-bundle2.svg" class="rose-bundle5"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/rose-bundle2.svg" class="rose-bundle6"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/rose-bundle2.svg" class="rose-bundle7"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/lily.svg" class="lily"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/lily.svg" class="lily2"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/lily.svg" class="lily3"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/tulips.svg" class="tulips"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/tulips.svg" class="tulips2"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/tulips.svg" class="tulips3"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/sunflower.svg" class="sunflower"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/sunflower.svg" class="sunflower2"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/sunflower.svg" class="sunflower3"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/bench.svg" class="bench"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/grass2.svg" class="grass"></object>
+                <object type="image/svg+xml" data="/svg/catwatail.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/catwa2.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/fly.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/daisy.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/guy.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/mochi.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence"></object>
+                <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence2"></object>
+                <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence3"></object>
+                <object type="image/svg+xml" data="/svg/BigBrush6.svg" class="BigBrush"></object>
+                <object type="image/svg+xml" data="/svg/BigBrush6.svg" class="BigBrush2"></object>
+                <object type="image/svg+xml" data="/svg/BigBrush6.svg" class="BigBrush4"></object>
+                <object type="image/svg+xml" data="/svg/BigBrush6.svg" class="BigBrush3"></object>
+                <object type="image/svg+xml" data="/svg/rose-bundle2.svg" class="rose-bundle4"></object>
+                <object type="image/svg+xml" data="/svg/rose-bundle.svg" class="rose-bundle"></object>
+                <object type="image/svg+xml" data="/svg/rose-bundle.svg" class="rose-bundle2"></object>
+                <object type="image/svg+xml" data="/svg/rose-bundle.svg" class="rose-bundle3"></object>
+                <object type="image/svg+xml" data="/svg/rose-bundle2.svg" class="rose-bundle5"></object>
+                <object type="image/svg+xml" data="/svg/rose-bundle2.svg" class="rose-bundle6"></object>
+                <object type="image/svg+xml" data="/svg/rose-bundle2.svg" class="rose-bundle7"></object>
+                <object type="image/svg+xml" data="/svg/lily.svg" class="lily"></object>
+                <object type="image/svg+xml" data="/svg/lily.svg" class="lily2"></object>
+                <object type="image/svg+xml" data="/svg/lily.svg" class="lily3"></object>
+                <object type="image/svg+xml" data="/svg/tulips.svg" class="tulips"></object>
+                <object type="image/svg+xml" data="/svg/tulips.svg" class="tulips2"></object>
+                <object type="image/svg+xml" data="/svg/tulips.svg" class="tulips3"></object>
+                <object type="image/svg+xml" data="/svg/sunflower.svg" class="sunflower"></object>
+                <object type="image/svg+xml" data="/svg/sunflower.svg" class="sunflower2"></object>
+                <object type="image/svg+xml" data="/svg/sunflower.svg" class="sunflower3"></object>
+                <object type="image/svg+xml" data="/svg/bench.svg" class="bench"></object>
+                <object type="image/svg+xml" data="/svg/grass2.svg" class="grass"></object>
                 <svg height="967" width="2000" style="position: absolute;opacity:100%;">
                     <path id="dog"fill="none" d="M 0 1100 L 50 1050 L 150 750 L 250 1100 L 400 1100 L 500 1100 L 550 1050 L 650 750 L 750 1050 L 800 1100 L 900 1100 L 1050 1100 L 1150 1100 L 1250 1100 L 1400 750 L 1500 1100 L 2300 1100 L 2300 1200 L 0 1200 L 0 1100 "></path>
-                    <image width="400" height="300" href="/portfolio/svg/mochi.svg">
+                    <image width="400" height="300" href="/svg/mochi.svg">
                         <animateMotion dur="30s" repeatCount="indefinite">
                             <mpath xlink:href="#dog"></mpath>
                           </animateMotion>
                     </image>
                 </svg>
-                <object type="image/svg+xml" data="/portfolio/svg/cloud.svg" class="cloud"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/cloud2.svg" class="cloud2"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/BigBrush7.svg" class="BigBrush5"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/BigBrush7.svg" class="BigBrush6"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/BigBrush7.svg" class="BigBrush7"></object>
-                <object type="image/svg+xml" data="/portfolio/svg/BigBrush7.svg" class="BigBrush8"></object>
+                <object type="image/svg+xml" data="/svg/cloud.svg" class="cloud"></object>
+                <object type="image/svg+xml" data="/svg/cloud2.svg" class="cloud2"></object>
+                <object type="image/svg+xml" data="/svg/BigBrush7.svg" class="BigBrush5"></object>
+                <object type="image/svg+xml" data="/svg/BigBrush7.svg" class="BigBrush6"></object>
+                <object type="image/svg+xml" data="/svg/BigBrush7.svg" class="BigBrush7"></object>
+                <object type="image/svg+xml" data="/svg/BigBrush7.svg" class="BigBrush8"></object>
 
     
                 <svg height="965" width="2000"style="position: absolute;opacity:100%; class="interactables">
@@ -168,8 +168,8 @@
                      </text>
     
                      //cat
-                     <image class="tail" x="14400" y="4130" style="transform:scale(.11)"width="500" height="500" href="/portfolio/svg/catwatail.svg"></image>
-                     <image x="4200" y="1130" style="transform:scale(.35)"width="500" height="500" href="/portfolio/svg/catwa2.svg"></image>
+                     <image class="tail" x="14400" y="4130" style="transform:scale(.11)"width="500" height="500" href="/svg/catwatail.svg"></image>
+                     <image x="4200" y="1130" style="transform:scale(.35)"width="500" height="500" href="/svg/catwa2.svg"></image>
     
                      <rect x="1470" y="420" width="175" rx="15" height="130" style="opacity:0%;cursor:pointer" >
                         <animate dur=".01s" id="reverseAnimationcat" attributeName="height" values="180;0" fill="freeze" begin="click" />
@@ -208,7 +208,7 @@
                         <animate dur=".1s" attributeName="opacity" values="100;0" fill="freeze" begin="reverseAnimationhydra.begin" />
                      </text>
 
-                     <image width="100" height="100" href="/portfolio/svg/fly.svg">
+                     <image width="100" height="100" href="/svg/fly.svg">
                         <animateMotion dur="30s" repeatCount="indefinite">
                             <mpath xlink:href="#b-path"></mpath>
                           </animateMotion>
@@ -251,11 +251,11 @@
                              <animate dur=".5s" attributeName="y" values="10; 580" fill="freeze" begin="startAnimation.begin" />
                              <animate dur=".5s" attributeName="y" values="580; 10" fill="freeze" begin="reverseAnimation.begin" />
                          </text>
-                         <image style="transform:scale(.6)"x="670" y="10" width="200" height="200"  href="/portfolio/svg/daisy.svg">
+                         <image style="transform:scale(.6)"x="670" y="10" width="200" height="200"  href="/svg/daisy.svg">
                             <animate dur=".5s" attributeName="y" values="10; 795" fill="freeze" begin="startAnimation.begin" />
                             <animate dur=".5s" attributeName="y" values="795; 10" fill="freeze" begin="reverseAnimation.begin" />
                          </image>
-                         <image style="transform:scaleX(-1)scale(1)"x="-440" y="10" width="100" height="100"  href="/portfolio/svg/fly.svg">
+                         <image style="transform:scaleX(-1)scale(1)"x="-440" y="10" width="100" height="100"  href="/svg/fly.svg">
                             <animate dur=".5s" attributeName="y" values="10; 445" fill="freeze" begin="startAnimation.begin" />
                             <animate dur="1s" attributeName="y" values="445; 435;445;455;445" repeatCount="indefinite" begin="startAnimation.end" />
                             <animate dur=".5s" attributeName="y" values="445; 10" fill="freeze" begin="reverseAnimation.begin" />
