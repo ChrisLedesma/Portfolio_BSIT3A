@@ -4,7 +4,7 @@ body{
     padding:0;
     user-select: none;
 }
-.wrap{
+.wrap-svg{
     background-color: rgb(188, 230, 255);
     width: 100vw;
     height: 100vh;
