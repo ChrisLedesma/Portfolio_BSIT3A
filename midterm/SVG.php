@@ -2,7 +2,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/svg-style.css">
-        <div class="wrap">
+        <style>
+              body{
+                  transform: translateY(-27px);
+                  margin:0;
+                  padding:0;
+                  user-select: none;
+              }
+        </style>
+        <div class="wrap-svg">
             <div class="test">
 
                 <svg height="800" width="2000" style="position: absolute;opacity:100%;">
