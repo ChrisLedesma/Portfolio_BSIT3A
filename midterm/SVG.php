@@ -11,7 +11,7 @@
 
                 <svg height="800" width="2000" style="position: absolute;opacity:100%;">
                     <path id="walk" fill="none" d="M 2000 150 L 1950 150 L 1900 200 L 1850 150 L 1800 200 L 1750 150 L 1700 200 L 1650 150 L 1600 200 L 1550 150 L 1500 200 L 1450 150 L 1400 200 L 1350 150 L 1300 200 L 1250 150 L 1200 200 L 1150 150 L 1100 200 L 1050 150 L 1000 200 L 950 150 L 900 200 L 850 150 L 800 200 L 750 150 L 700 200 L 650 150 L 600 200 L 550 150 L 500 200 L 450 150 L 400 200 L 350 150 L 300 200 L 250 150 L 200 200 L 150 150 L 100 200 L 50 150 L -400 200 L -400 750 L 2000 750 L 2000 200 "></path>
-                    <image width="400" height="300" href="/portfolio/svg/guy.svg">
+                    <image width="400" height="300" href="/svg/guy.svg">
                         <animateMotion dur="30s" repeatCount="indefinite">
                             <mpath xlink:href="#walk"></mpath>
                           </animateMotion>
