@@ -1,0 +1,489 @@
+body{
+    transform: translateY(-27px);
+    margin:0;
+    padding:0;
+    user-select: none;
+}
+.wrap{
+    background-color: rgb(188, 230, 255);
+    width: 100vw;
+    height: 100vh;
+    min-width: 1920px;
+    min-height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+.grass{
+    position: absolute;
+    transform: translate(0px,100px)scale(1.05);
+    animation: grass 5s infinite;
+}
+.Fence{
+    position: absolute;
+    transform: translate(-380px,-150px)scale(.4);
+}
+.Fence2{
+    position: absolute;
+    transform: translate(-1220px, -150px)scale(.4);
+}
+.Fence3{
+    position: absolute;
+    transform: translate(460px, -150px)scale(.4);
+}
+.BigBrush{
+    position: absolute;
+    transform: translate(-750px, -70px)scale(.5);
+    animation: BigBrush 7s infinite linear;
+}
+.BigBrush2{
+    position: absolute;
+    transform: translate(-120px, -70px)scale(.5);
+    animation: BigBrush2 7s infinite linear;
+}
+.BigBrush3{
+    position: absolute;
+    transform: translate(510px, -70px)scale(.5);
+    animation: BigBrush3 7s infinite linear;
+}
+.BigBrush4{
+    position: absolute;
+    transform: translate(1140px, -70px)scale(.5);
+    animation: BigBrush4 7s infinite linear;
+}
+.BigBrush5{
+    position: absolute;
+    animation: BigBrush5 7s infinite linear;
+}
+.BigBrush6{
+    position: absolute;
+    animation: BigBrush6 7s infinite linear;
+}
+.BigBrush7{
+    position: absolute;
+    animation: BigBrush7 7s infinite linear;
+}
+.BigBrush8{
+    position: absolute;
+    animation: BigBrush8 7s infinite linear;
+}
+
+.floom-box{
+    transform: translate(600px,-410px);
+}
+.grass-indiv {
+    position: absolute;
+    transform:translate(0px, 300px)scale(.3);
+    animation: grass 10s infinite;
+}
+.rose-bundle{
+    position: absolute;
+    transform:translate(-340px, -130px)scale(.12);
+    animation: rose-bundle 7s infinite linear;
+}
+.rose-bundle2{
+    position: absolute;
+    transform:translate(-410px, -130px)scale(.12);
+    animation: rose-bundle2 7s infinite linear;
+}
+.rose-bundle3{
+    position: absolute;
+    transform:translate(-490px, -130px)scale(.12);
+    animation: rose-bundle3 7s infinite linear;
+}
+.rose-bundle4{
+    position: absolute;
+    transform:translate(-320px, 10px)scale(.12);
+    animation: rose-bundle4 7s infinite linear;
+}
+.rose-bundle5{
+    position: absolute;
+    transform:translate(-220px, 10px)scale(.12);
+    animation: rose-bundle5 7s infinite linear;
+}
+.rose-bundle6{
+    position: absolute;
+    transform:translate(-160px, -40px)scale(.12);
+    animation: rose-bundle6 7s infinite linear;
+}
+.rose-bundle7{
+    position: absolute;
+    transform:translate(-100px, -35px)scale(.12);
+    animation: rose-bundle7 7s infinite linear;
+}
+.lily{
+    position: absolute;
+    transform:translate(-100px, -35px)scale(.12);
+    animation: lily 7s infinite linear;
+}
+.lily2{
+    position: absolute;
+    animation: lily2 7s infinite linear;
+}
+.lily3{
+    position: absolute;
+    animation: lily3 7s infinite linear;
+}
+.cloud{
+    position: absolute;
+    transform: translate(-800px,-400px)scale(.2);
+    animation: cloud 65s infinite;
+}
+.cloud2{
+    position: absolute;
+    transform: translate(1450px,-370px)scale(.2);
+    animation: cloud2 55s infinite;
+}
+.bench{
+    position: absolute;
+    transform: translate(1150px,-110px)scale(.45);
+}
+.bfly{
+    position: absolute;
+    transform: scale(.2);
+}
+.tail{
+    animation: tail 7s linear infinite; 
+}
+.a{
+    position: absolute;
+    transform: translateX(-5000vw);
+}
+.tulips{
+    position: absolute;
+    animation: tulips 5s infinite linear;
+}
+.tulips2{
+    position: absolute;
+    animation: tulips2 5s infinite linear;
+}
+.tulips3{
+    position: absolute;
+    animation: tulips3 5s infinite linear;
+}
+.sunflower{
+    position: absolute;
+    animation: sunflower 5s infinite linear;
+}
+.sunflower2{
+    position: absolute;
+    animation: sunflower2 5s infinite linear;
+}
+.sunflower3{
+    position: absolute;
+    animation: sunflower3 5s infinite linear;
+}
+
+/*animation*/
+@keyframes cloud {
+    100%{
+        transform: translate(1450px,-400px)scale(.2);
+    }
+}
+@keyframes cloud2 {
+    100%{
+        transform: translate(-1000px,-370px)scale(.2);
+    }
+}
+@keyframes BigBrush {
+    0%{
+        transform: skewX(0deg)translate(-950px, 30px)scale(.5);
+    }
+    33%{
+        transform: skewX(6deg)translate(-950px, 30px)scale(.5);
+    }
+    100%{
+        transform: skewX(0deg)translate(-950px, 30px)scale(.5);
+    }
+}
+@keyframes BigBrush2 {
+    0%{
+        transform: skewX(6deg)translate(-320px, 30px)scale(.5);
+    }
+    33%{
+        transform: skewX(0deg)translate(-320px, 30px)scale(.5);
+    }
+    100%{
+        transform: skewX(6deg)translate(-320px, 30px)scale(.5);
+    }
+}
+@keyframes BigBrush3 {
+    0%{
+        transform: skewX(0deg)translate(310px, 30px)scale(.5);
+    }
+    33%{
+        transform: skewX(6deg)translate(310px, 30px)scale(.5);
+    }
+    100%{
+        transform: skewX(0deg)translate(310px, 30px)scale(.5);
+    }
+}
+@keyframes BigBrush4 {
+    0%{
+        transform: skewX(6deg)translate(700px, 30px)scale(.5);
+    }
+    33%{
+        transform: skewX(0deg)translate(700px, 30px)scale(.5);
+    }
+    100%{
+        transform: skewX(6deg)translate(700px, 30px)scale(.5);
+    }
+}
+@keyframes BigBrush5 {
+    0%{
+        transform: skewX(0deg)translate(-950px, 744px)scale(.5);
+    }
+    33%{
+        transform: skewX(4deg)translate(-950px, 744px)scale(.5);
+    }
+    100%{
+        transform: skewX(0deg)translate(-950px, 744px)scale(.5);
+    }
+}
+@keyframes BigBrush6 {
+    0%{
+        transform: skewX(4deg)translate(-320px, 744px)scale(.5);
+    }
+    33%{
+        transform: skewX(0deg)translate(-320px, 744px)scale(.5);
+    }
+    100%{
+        transform: skewX(4deg)translate(-320px, 744px)scale(.5);
+    }
+}
+@keyframes BigBrush7 {
+    0%{
+        transform: skewX(0deg)translate(310px, 744px)scale(.5);
+    }
+    33%{
+        transform: skewX(4deg)translate(310px, 744px)scale(.5);
+    }
+    100%{
+        transform: skewX(0deg)translate(310px, 744px)scale(.5);
+    }
+}
+@keyframes BigBrush8 {
+    0%{
+        transform: skewX(4deg)translate(700px, 744px)scale(.5);
+    }
+    33%{
+        transform: skewX(0deg)translate(700px, 744px)scale(.5);
+    }
+    100%{
+        transform: skewX(4deg)translate(700px, 744px)scale(.5);
+    }
+}
+@keyframes rose-bundle {
+    0%{
+        transform: skewX(4deg)translate(-340px, -30px)scale(.12);
+    }
+    33%{
+        transform: skewX(0deg)translate(-340px, -30px)scale(.12);
+    }
+    100%{
+        transform: skewX(4deg)translate(-340px, -30px)scale(.12);
+    }
+}
+@keyframes rose-bundle2 {
+    0%{
+        transform: skewX(0deg)translate(-410px, -30px)scale(.12);
+    }
+    33%{
+        transform: skewX(4deg)translate(-410px, -30px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(-410px, -30px)scale(.12);
+    }
+}
+@keyframes rose-bundle3 {
+    0%{
+        transform: skewX(0deg)translate(-490px, -30px)scale(.12);
+    }
+    33%{
+        transform: skewX(4deg)translate(-490px, -30px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(-490px, -30px)scale(.12);
+    }
+}
+@keyframes rose-bundle4 {
+    0%{
+        transform: skewX(0deg)translate(-300px, -30px)scale(.12);
+    }
+    33%{
+        transform: skewX(-4deg)translate(-300px, -30px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(-300px, -30px)scale(.12);
+    }
+}
+@keyframes rose-bundle5 {
+    0%{
+        transform: skewX(0deg)translate(-230px, -30px)scale(.12);
+    }
+    33%{
+        transform: skewX(-4deg)translate(-230px, -30px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(-230px, -30px)scale(.12);
+    }
+}
+@keyframes rose-bundle6 {
+    0%{
+        transform: skewX(0deg)translate(-160px, -40px)scale(.12);
+    }
+    33%{
+        transform: skewX(4deg)translate(-160px, -40px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(-160px, -40px)scale(.12);
+    }
+}
+@keyframes rose-bundle7 {
+    0%{
+        transform: skewX(0deg)translate(-100px, -35px)scale(.12);
+    }
+    33%{
+        transform: skewX(4deg)translate(-100px, -35px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(-100px, -35px)scale(.12);
+    }
+}
+@keyframes lily {
+    0%{
+        transform: skewX(0deg)translate(0px, -35px)scale(.12);
+    }
+    33%{
+        transform: skewX(4deg)translate(0px, -35px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(0px, -35px)scale(.12);
+    }
+}
+@keyframes lily2 {
+    0%{
+        transform: skewX(0deg)translate(50px, -35px)scale(.12);
+    }
+    33%{
+        transform: skewX(-4deg)translate(50px, -35px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(50px, -35px)scale(.12);
+    }
+}
+@keyframes lily3 {
+    0%{
+        transform: skewX(0deg)translate(110px, -35px)scale(.12);
+    }
+    33%{
+        transform: skewX(4deg)translate(110px, -35px)scale(.12);
+    }
+    100%{
+        transform: skewX(0deg)translate(110px, -35px)scale(.12);
+    }
+}
+@keyframes grass {
+    0%{
+        transform: skewX(0deg)translate(-200px,200px)scale(1.05);
+    }
+    33%{
+        transform: skewX(2deg)translate(-200px,200px)scale(1.05);
+    }
+    100%{
+        transform: skewX(0deg)translate(-200px,200px)scale(1.05);
+    }
+}
+@keyframes dash {
+100% {
+    stroke-dashoffset: 0;
+}
+}
+#daisy-flow{
+    animation: rotation 3000ms linear infinite normal forwards
+    }
+
+@keyframes rotation { 
+    0%{
+        transform: translate(104.263204px,105.762975px) rotate(0deg)
+    }
+     100% {
+         transform: translate(104.263204px,105.762975px) rotate(359deg)
+    }
+    }
+    @keyframes tail {
+        0%{
+        transform: skewX(0deg)scale(.11);
+    }
+    33%{
+        transform: skewX(1deg)scale(.11);
+    }
+    100%{
+        transform: skewX(0deg)scale(.11);
+    }
+    }
+    @keyframes tulips {
+        0%{
+        transform: skewX(0deg)translate(-95px, 25px)scale(.1);
+    }
+    33%{
+        transform: skewX(4deg)translate(-95px, 25px)scale(.1);
+    }
+    100%{
+        transform: skewX(0deg)translate(-95px, 25px)scale(.1);
+    }
+    }
+    @keyframes tulips2 {
+        0%{
+        transform: skewX(0deg)translate(-5px, 25px)scale(.1);
+    }
+    33%{
+        transform: skewX(-4deg)translate(-5px, 25px)scale(.1);
+    }
+    100%{
+        transform: skewX(0deg)translate(-5px, 25px)scale(.1);
+    }
+    }
+    @keyframes tulips3 {
+        0%{
+        transform: skewX(0deg)translate(45px, 25px)scale(.1);
+    }
+    33%{
+        transform: skewX(4deg)translate(45px, 25px)scale(.1);
+    }
+    100%{
+        transform: skewX(0deg)translate(45px, 25px)scale(.1);
+    }
+    }
+    @keyframes sunflower {
+        0%{
+        transform: skewX(0deg)translate(625px, -225px)scale(.17);
+    }
+    33%{
+        transform: skewX(4deg)translate(625px, -225px)scale(.17);
+    }
+    100%{
+        transform: skewX(0deg)translate(625px, -225px)scale(.17);
+    }
+    }
+    @keyframes sunflower2 {
+        0%{
+        transform: skewX(0deg)translate(505px, -225px)scale(.17);
+    }
+    33%{
+        transform: skewX(-4deg)translate(505px, -225px)scale(.17);
+    }
+    100%{
+        transform: skewX(0deg)translate(505px, -225px)scale(.17);
+    }
+    }
+    @keyframes sunflower3 {
+        0%{
+        transform: skewX(0deg)translate(355px, -225px)scale(.17);
+    }
+    33%{
+        transform: skewX(4deg)translate(355px, -225px)scale(.17);
+    }
+    100%{
+        transform: skewX(0deg)translate(355px, -225px)scale(.17);
+    }
+    }
