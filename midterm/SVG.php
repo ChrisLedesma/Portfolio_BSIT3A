@@ -1,4 +1,3 @@
-<html>
     <head>
         <title>L.E. SVG</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -270,4 +269,4 @@
             </div>
         </div>    
     </body>
-</html>
+
