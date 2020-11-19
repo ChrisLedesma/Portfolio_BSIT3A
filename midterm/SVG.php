@@ -18,6 +18,13 @@
                     </image>
                 </svg>
                 
+                <object type="image/svg+xml" data="/svg/catwatail.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/catwa2.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/fly.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/daisy.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/guy.svg" class="a"></object>
+                <object type="image/svg+xml" data="/svg/mochi.svg" class="a"></object>
+                
                 <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence"></object>
                 <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence2"></object>
                 <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence3"></object>
