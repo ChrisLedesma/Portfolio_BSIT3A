@@ -59,6 +59,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                                 <div class="dropdown-content">
                                     <a href="index.php?page=6.1">LT 6.1</a>
                                     <a href="index.php?page=6.2">LT 6.2</a>
+                                    <a href="index.php?page=LEMID">LE MIDTERM</a>
                                 </div>
                             </div>  
                         </ul>
@@ -73,6 +74,9 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                         break;
                         case'6.2':
                             require_once('midterm/LT-6.2.php');
+                        break;
+                        case'LEMID':
+                            require_once('midterm/SVG.php');
                         break;
                          default:
                          require_once('home.php');
