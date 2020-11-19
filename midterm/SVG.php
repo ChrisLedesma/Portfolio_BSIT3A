@@ -169,8 +169,7 @@
                      </text>
     
                      //cat
-                     <image class="tail" x="14400" y="4130" style="transform:scale(.11)"width="500" height="500" href="/svg/catwatail.svg"></image>
-                     <image x="4200" y="1130" style="transform:scale(.35)"width="500" height="500" href="/svg/catwa2.svg"></image>
+
     
                      <rect x="1470" y="420" width="175" rx="15" height="130" style="opacity:0%;cursor:pointer" >
                         <animate dur=".01s" id="reverseAnimationcat" attributeName="height" values="180;0" fill="freeze" begin="click" />
