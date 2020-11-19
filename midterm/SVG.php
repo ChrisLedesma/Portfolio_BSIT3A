@@ -3,7 +3,7 @@
         <title>L.E. SVG</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/portfolio/css/svg-style.css">
+        <link rel="stylesheet" href="/css/svg-style.css">
     </head>
     <body>
         <div class="wrap">
