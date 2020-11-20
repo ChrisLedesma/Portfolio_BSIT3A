@@ -5,6 +5,9 @@
         <style>
         </style>
         <div class="wrap-svg">
+            <div class="loader">
+                <object type="image/svg+xml" data="/svg/daisy2.svg" class="daisy-load"></object>
+            </div> 
             <div class="test">
 
                 <svg height="800" width="2000" style="position: absolute;opacity:100%;">
@@ -269,6 +272,24 @@
             </div>
         </div>    
        <script>
+                     function onReady(callback) {
+                       var intervalId = window.setInterval(function() {
+                         if (document.getElementsByTagName('body')[0] !== undefined) {
+                           window.clearInterval(intervalId);
+                           callback.call(this);
+                         }
+                       }, 3000);
+                     }
+
+                     function setVisible(selector, visible) {
+                       document.querySelector(selector).style.display = visible ? 'block' : 'none';
+                     }
+
+                     onReady(function() {
+                       setVisible('.wrap-svg', true);
+                       setVisible('.loader', false);
+                     });
+                                                                                                                               
               window.onload = function() {
                   if(!window.location.hash) {
                       window.location = window.location + '#loaded';
