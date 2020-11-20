@@ -1,16 +1,17 @@
-       <title>L.E. SVG</title>
+<html>
+    <head>
+        <title>L.E. SVG</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/css/svg-style.css">
-        <style>
-        </style>
-        <div class="wrap-svg">
+        <link rel="stylesheet" href="css/svg-style.css">
+    </head>
+    <body>
+        <div class="wrap">
             <div class="loader">
                 <object type="image/svg+xml" data="/svg/daisy2.svg" class="daisy-load"></object>
             </div> 
             <div class="test">
-
-                <svg height="800" width="2000" style="position: absolute;opacity:100%;">
+                <svg height="967" width="2000" style="position: absolute;opacity:100%;">           
                     <path id="walk" fill="none" d="M 2000 150 L 1950 150 L 1900 200 L 1850 150 L 1800 200 L 1750 150 L 1700 200 L 1650 150 L 1600 200 L 1550 150 L 1500 200 L 1450 150 L 1400 200 L 1350 150 L 1300 200 L 1250 150 L 1200 200 L 1150 150 L 1100 200 L 1050 150 L 1000 200 L 950 150 L 900 200 L 850 150 L 800 200 L 750 150 L 700 200 L 650 150 L 600 200 L 550 150 L 500 200 L 450 150 L 400 200 L 350 150 L 300 200 L 250 150 L 200 200 L 150 150 L 100 200 L 50 150 L -400 200 L -400 750 L 2000 750 L 2000 200 "></path>
                     <image width="400" height="300" href="/svg/guy.svg">
                         <animateMotion dur="30s" repeatCount="indefinite">
@@ -19,13 +20,13 @@
                     </image>
                 </svg>
                 
+
                 <object type="image/svg+xml" data="/svg/catwatail.svg" class="a"></object>
                 <object type="image/svg+xml" data="/svg/catwa2.svg" class="a"></object>
                 <object type="image/svg+xml" data="/svg/fly.svg" class="a"></object>
                 <object type="image/svg+xml" data="/svg/daisy.svg" class="a"></object>
                 <object type="image/svg+xml" data="/svg/guy.svg" class="a"></object>
                 <object type="image/svg+xml" data="/svg/mochi.svg" class="a"></object>
-                
                 <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence"></object>
                 <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence2"></object>
                 <object type="image/svg+xml" data="/svg/Fence2.svg" class="Fence3"></object>
@@ -51,6 +52,7 @@
                 <object type="image/svg+xml" data="/svg/sunflower.svg" class="sunflower3"></object>
                 <object type="image/svg+xml" data="/svg/bench.svg" class="bench"></object>
                 <object type="image/svg+xml" data="/svg/grass2.svg" class="grass"></object>
+
                 <svg height="967" width="2000" style="position: absolute;opacity:100%;">
                     <path id="dog"fill="none" d="M 0 1100 L 50 1050 L 150 750 L 250 1100 L 400 1100 L 500 1100 L 550 1050 L 650 750 L 750 1050 L 800 1100 L 900 1100 L 1050 1100 L 1150 1100 L 1250 1100 L 1400 750 L 1500 1100 L 2300 1100 L 2300 1200 L 0 1200 L 0 1100 "></path>
                     <image width="400" height="300" href="/svg/mochi.svg">
@@ -65,6 +67,8 @@
                 <object type="image/svg+xml" data="/svg/BigBrush7.svg" class="BigBrush6"></object>
                 <object type="image/svg+xml" data="/svg/BigBrush7.svg" class="BigBrush7"></object>
                 <object type="image/svg+xml" data="/svg/BigBrush7.svg" class="BigBrush8"></object>
+
+
 
     
                 <svg height="965" width="2000"style="position: absolute;opacity:100%; class="interactables">
@@ -170,9 +174,9 @@
                      </text>
     
                      //cat
-
                      <image class="tail" x="14400" y="4130" style="transform:scale(.11)"width="500" height="500" href="/svg/catwatail.svg"></image>
                      <image x="4200" y="1130" style="transform:scale(.35)"width="500" height="500" href="/svg/catwa2.svg"></image>
+    
                      <rect x="1470" y="420" width="175" rx="15" height="130" style="opacity:0%;cursor:pointer" >
                         <animate dur=".01s" id="reverseAnimationcat" attributeName="height" values="180;0" fill="freeze" begin="click" />
                         <animate dur=".01s" attributeName="height" values="0; 170" fill="freeze" begin="startAnimationcat.begin" />
@@ -209,6 +213,7 @@
                         <animate dur="20s" attributeName="opacity" values="0;10;20;30;40;50;60;70;80;90;100" fill="freeze" begin="startAnimationhydra.begin" />
                         <animate dur=".1s" attributeName="opacity" values="100;0" fill="freeze" begin="reverseAnimationhydra.begin" />
                      </text>
+
 
                      <image width="100" height="100" href="/svg/fly.svg">
                         <animateMotion dur="30s" repeatCount="indefinite">
@@ -271,29 +276,30 @@
                 </svg>
             </div>
         </div>    
-       <script>
-                     function onReady(callback) {
-                       var intervalId = window.setInterval(function() {
-                         if (document.getElementsByTagName('body')[0] !== undefined) {
-                           window.clearInterval(intervalId);
-                           callback.call(this);
-                         }
-                       }, 3000);
-                     }
+    </body>
+    <script>
+        function onReady(callback) {
+        var intervalId = window.setInterval(function() {
+            if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalId);
+            callback.call(this);
+            }
+        }, 3000);
+        }
 
-                     function setVisible(selector, visible) {
-                       document.querySelector(selector).style.display = visible ? 'block' : 'none';
-                     }
+        function setVisible(selector, visible) {
+        document.querySelector(selector).style.display = visible ? 'block' : 'none';
+        }
 
-                     onReady(function() {
-                       setVisible('.wrap-svg', true);
-                       setVisible('.loader', false);
-                     });
-                                                                                                                               
+        onReady(function() {
+        setVisible('.wrap', true);
+        setVisible('.loader', false);
+        });
               window.onload = function() {
                   if(!window.location.hash) {
                       window.location = window.location + '#loaded';
                       window.location.reload();
                   }
               }
-       </script>
+    </script>
+</html>
