@@ -4,7 +4,16 @@ body{
     padding:0;
     user-select: none;
 }
-.wrap-svg{
+.loader{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(255, 188, 225);
+}
+.daisy-load{
+    transform: translateY(-500px)scale(.1);
+}
+.wrap{
     background-color: rgb(188, 230, 255);
     width: 100vw;
     height: 100vh;
@@ -32,22 +41,18 @@ body{
 }
 .BigBrush{
     position: absolute;
-    transform: translate(-750px, -70px)scale(.5);
     animation: BigBrush 7s infinite linear;
 }
 .BigBrush2{
     position: absolute;
-    transform: translate(-120px, -70px)scale(.5);
     animation: BigBrush2 7s infinite linear;
 }
 .BigBrush3{
     position: absolute;
-    transform: translate(510px, -70px)scale(.5);
     animation: BigBrush3 7s infinite linear;
 }
 .BigBrush4{
     position: absolute;
-    transform: translate(1140px, -70px)scale(.5);
     animation: BigBrush4 7s infinite linear;
 }
 .BigBrush5{
@@ -70,49 +75,36 @@ body{
 .floom-box{
     transform: translate(600px,-410px);
 }
-.grass-indiv {
-    position: absolute;
-    transform:translate(0px, 300px)scale(.3);
-    animation: grass 10s infinite;
-}
 .rose-bundle{
     position: absolute;
-    transform:translate(-340px, -130px)scale(.12);
     animation: rose-bundle 7s infinite linear;
 }
 .rose-bundle2{
-    position: absolute;
-    transform:translate(-410px, -130px)scale(.12);
+    position: absolute;;
     animation: rose-bundle2 7s infinite linear;
 }
 .rose-bundle3{
     position: absolute;
-    transform:translate(-490px, -130px)scale(.12);
     animation: rose-bundle3 7s infinite linear;
 }
 .rose-bundle4{
     position: absolute;
-    transform:translate(-320px, 10px)scale(.12);
     animation: rose-bundle4 7s infinite linear;
 }
 .rose-bundle5{
     position: absolute;
-    transform:translate(-220px, 10px)scale(.12);
     animation: rose-bundle5 7s infinite linear;
 }
 .rose-bundle6{
     position: absolute;
-    transform:translate(-160px, -40px)scale(.12);
     animation: rose-bundle6 7s infinite linear;
 }
 .rose-bundle7{
     position: absolute;
-    transform:translate(-100px, -35px)scale(.12);
     animation: rose-bundle7 7s infinite linear;
 }
 .lily{
     position: absolute;
-    transform:translate(-100px, -35px)scale(.12);
     animation: lily 7s infinite linear;
 }
 .lily2{
@@ -125,12 +117,10 @@ body{
 }
 .cloud{
     position: absolute;
-    transform: translate(-800px,-400px)scale(.2);
     animation: cloud 65s infinite;
 }
 .cloud2{
     position: absolute;
-    transform: translate(1450px,-370px)scale(.2);
     animation: cloud2 55s infinite;
 }
 .bench{
@@ -146,7 +136,7 @@ body{
 }
 .a{
     position: absolute;
-    transform: translateX(-5000vw);
+    transform: translateX(-1000vw);
 }
 .tulips{
     position: absolute;
