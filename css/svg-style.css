@@ -9,7 +9,7 @@ body{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    background-color: rgb(255, 188, 225);
+    background-color: rgb(250, 209, 234);
 }
 .daisy-load{
     transform: translateY(-500px)scale(.1);
