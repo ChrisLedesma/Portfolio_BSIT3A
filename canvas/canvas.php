@@ -67,11 +67,11 @@
 
     </body>
 </html>
-<script type="text/javascript" src="js/pokeball.js"></script>
-<script type="text/javascript" src="js/sbeve.js"></script>
-<script type="text/javascript" src="js/owo.js"></script>
-<script type="text/javascript" src="js/popsicle.js"></script>
-<script type="text/javascript" src="js/koala.js"></script>
-<script type="text/javascript" src="js/panda.js"></script>
-<script type="text/javascript" src="js/icecream.js"></script>
-<script type="text/javascript" src="js/house.js"></script>
+<script type="text/javascript" src="canvas/js/pokeball.js"></script>
+<script type="text/javascript" src="canvas/js/sbeve.js"></script>
+<script type="text/javascript" src="canvas/js/owo.js"></script>
+<script type="text/javascript" src="canvas/js/popsicle.js"></script>
+<script type="text/javascript" src="canvas/js/koala.js"></script>
+<script type="text/javascript" src="canvas/js/panda.js"></script>
+<script type="text/javascript" src="canvas/js/icecream.js"></script>
+<script type="text/javascript" src="canvas/js/house.js"></script>
