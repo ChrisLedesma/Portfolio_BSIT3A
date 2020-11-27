@@ -86,7 +86,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                             require_once('midterm/SVG.php');
                         break;
                         case'7.1':
-                            require_once('canvas/index.php');
+                            require_once('canvas/canvas.php');
                         break;
                          default:
                          require_once('home.php');
