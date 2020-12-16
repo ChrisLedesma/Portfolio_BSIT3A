@@ -9,8 +9,7 @@
     </style>
     <body>
         <div id="content1">
-            <div class="chonkobo">
-                <object type="image/svg+xml" data="svg/tet.svg" style="transform:scale(.3);"></object>   
+            <div class="chonkobo"> 
             </div>
             <div class="header header-anim">Christian Dominic Ledesma</div>
             <div class="header">BSIT3A</div>
