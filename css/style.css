@@ -18,7 +18,7 @@ body{
 }
 #content1{
   width: 100%;
-  height: 100%;
+  height: fit-content;
   margin-top: -2.6vh;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,6 @@ body{
   }
 }
 .chonkobo{
-  background-image: url("data:image/svg+xml;/svg/tet.svg");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center;
@@ -62,7 +61,7 @@ body{
   width: 20vw;
   height: 20vw;
   background-color: #689775;
-  box-shadow: 0 0 0 rgba(237, 190, 90, 0.7)
+  box-shadow: 0 0 0 rgba(76, 136, 81, 0.7);
 }
 .chonkobo:hover{
   animation: pulse 2s infinite;
@@ -70,7 +69,7 @@ body{
 }
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(237, 190, 90, 0.7)
+    box-shadow: 0 0 0 0 rgba(76, 136, 81, 0.7);
   }
   70% {
       box-shadow: 0 0 0 2vw rgba(204,169,44, 0);
@@ -266,4 +265,20 @@ body{
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+#content1-part1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#content1-part2{
+  width: 100%;
+  height: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
