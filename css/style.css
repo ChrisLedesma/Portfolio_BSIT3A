@@ -54,7 +54,7 @@ body{
   }
 }
 .chonkobo{
-  background-image: url("/svg/tet.svg");
+  background-image: url("data:image/svg+xml;/svg/tet.svg");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center;
