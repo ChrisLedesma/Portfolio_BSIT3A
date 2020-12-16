@@ -23,67 +23,65 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                         <ul id="menu">
                             <a href="index.php"><li><div class="side-menu">HOME</div></li></a>
                             <div class="dropdown">
-                                <button class="dropbtn">MODULE 2 
+                                <button class="dropbtn">CSS 
                                 </button>
                                 <div class="dropdown-content">
-                                    <a href="#">LT 2.2</a>
-                                    <a href="#">LT 2.3</a>
-                                </div>
-                            </div> 
-                            <div class="dropdown">
-                                <button class="dropbtn">MODULE 3 
-                                </button>
-                                <div class="dropdown-content">
-                                    <a href="#">LT 3.2</a>
-                                    <a href="#">LT 3.3</a>
-                                </div>
-                            </div> 
-                            <div class="dropdown">
-                                <button class="dropbtn">MODULE 4 
-                                </button>
-                                <div class="dropdown-content">
-                                    <a href="#">LT 4.1</a>
+                                    <a href="index.php?page=2.2">LT 2.2</a>
+                                    <a href="index.php?page=2.3">LT 2.3</a>
+                                    <a href="index.php?page=3.2">LT 3.2</a>
+                                    <a href="index.php?page=3.3">LT 3.3</a>
+                                    <a href="index.php?page=4.1">LT 4.1</a>
                                     <a href="https://prelimproj-3rdyr.herokuapp.com/" target="_blank">LE PRELIM</a>
                                 </div>
-                            </div>
+                            </div> 
                             <div class="dropdown">
-                                <button class="dropbtn">MODULE 5 
+                                <button class="dropbtn">SVG
                                 </button>
                                 <div class="dropdown-content">
                                     <a href="index.php?page=5.1">LT 5.1</a>
-                                </div>
-                            </div> 
-                            <div class="dropdown">
-                                <button class="dropbtn">MODULE 6 
-                                </button>
-                                <div class="dropdown-content">
                                     <a href="index.php?page=6.1">LT 6.1</a>
                                     <a href="index.php?page=6.2">LT 6.2</a>
                                     <a href="index.php?page=LEMID">LE MIDTERM</a>
                                 </div>
                             </div>  
                              <div class="dropdown">
-                                <button class="dropbtn">Canvas 
+                                <button class="dropbtn">CANVAS 
                                 </button>
                                 <div class="dropdown-content">
                                     <a href="index.php?page=7.1">LT 7.1</a>
                                 </div>
                             </div>
+                            <a href="#"><li><div class="side-menu">ABOUT</div></li></a>
                         </ul>
                     </div>
                     <?php
                      switch ($page) { 
+                        case'2.2':
+                            require_once('css-act/LT-2.2.php');
+                        break;
+                        case'2.3':
+                            require_once('css-act/LT-2.3.php');
+                        break;
+                        case'3.2':
+                            require_once('css-act/LT-3.2.php');
+                        break;
+                        case'3.3':
+                            require_once('css-act/LT-3.3.php');
+                        break;
+                        case'4.1':
+                            require_once('css-act/LT-4.1.php');
+                        break;
                         case'5.1':
-                            require_once('midterm/LT-5.1.php');
+                            require_once('svg-act/LT-5.1.php');
                         break;
                          case'6.1':
-                            require_once('midterm/LT-6.1.php');
+                            require_once('svg-act/LT-6.1.php');
                         break;
                         case'6.2':
-                            require_once('midterm/LT-6.2.php');
+                            require_once('svg-act/LT-6.2.php');
                         break;
                         case'LEMID':
-                            require_once('midterm/SVG.php');
+                            require_once('svg-act/SVG.php');
                         break;
                         case'7.1':
                             require_once('canvas/canvas.php');

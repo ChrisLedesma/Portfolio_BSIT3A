@@ -54,7 +54,7 @@ body{
   }
 }
 .chonkobo{
-  background-image: url("../chonk.png");
+  background-image: url("../tet.svg");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center;
@@ -86,9 +86,7 @@ body{
   top: 2vw;
   left: 50px;
   width: fit-content;
-
   z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
 
@@ -98,7 +96,6 @@ body{
 {
   text-decoration: none;
   color: #232323;
-  
   transition: color 0.3s ease;
 }
 
@@ -177,7 +174,6 @@ body{
 
 #menu
 {
-  border: 1px solid black;
   position: absolute;
   height: 90vh;
   width: 18vw;
@@ -227,7 +223,7 @@ body{
   width: 18vw;
   height: 5vw;
   font-family: 'Teko', sans-serif;
-  font-size: 32px;   
+  font-size: 4vw;   
   border: none;
   outline: none;
   color: white;
@@ -238,7 +234,7 @@ body{
 
 .dropdown-content {
   font-family: 'Teko', sans-serif;
-  font-size: 24px; 
+  font-size: 3vw;  
   margin-left: 25vw;
   position: absolute;
   display: none;
@@ -251,7 +247,7 @@ body{
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+
   text-decoration: none;
   display: block;
   text-align: left;
