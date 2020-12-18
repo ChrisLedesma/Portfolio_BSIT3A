@@ -51,7 +51,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                                     <a href="index.php?page=7.1">LT 7.1</a>
                                 </div>
                             </div>
-                            <a href="#"><li><div class="side-menu">ABOUT</div></li></a>
+                            <a href="index.php?page=about"><li><div class="side-menu">ABOUT</div></li></a>
                         </ul>
                     </div>
                     <?php
@@ -85,6 +85,9 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                         break;
                         case'7.1':
                             require_once('canvas/canvas.php');
+                        break;
+                        case'about':
+                        require_once('about.php');
                         break;
                          default:
                          require_once('home.php');

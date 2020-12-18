@@ -7,134 +7,6 @@
             user-select: none;
             background: #080813;
         }
-        .slideshow{
-            width: 60vw;
-            display: flex;
-            flex-direction:column;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Teko', sans-serif;
-        }
-        .wordCarousel {
-            font-size: 5vw;
-            font-weight: 100;
-            color: white;
-            text-align: center;
-        }
-        .wordCarousel div {
-            overflow: hidden;
-            position: relative;
-            height: 130px;
-            margin-right: 40px;
-        }
-        .wordCarousel div li {
-            font-family: 'Teko', sans-serif;
-            color: #000000;
-            font-weight: 700;
-            padding: 0 20px;
-            height: 90px;
-            margin-bottom: 90px;
-            display: block;
-        }
-        .wordCarousel li:nth-child(1){
-            text-shadow: .1vw .1vw .2vw black, 0 0 1vw rgba(217, 255, 0, 0.726), 0 0 .5vw rgba(130, 139, 0, 0.788);
-            color: rgb(214, 214, 2);
-        }
-        .wordCarousel li:nth-child(2){
-            text-shadow: .1vw .1vw .2vw black, 0 0 1vw rgba(255, 0, 0, 0.753), 0 0 .5vw rgba(139, 0, 0, 0.685);
-            color: rgb(209, 0, 0);
-        }
-        .flip2 {
-                animation: flip2 4s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
-        }
-        @keyframes flip2 {
-            0% {
-                margin-top: -280px;
-            }
-            5% {
-                margin-top: -180px;
-            }
-            50% {
-                margin-top: -180px;
-            }
-            55% {
-                margin-top: 0px;
-            }
-            99.99% {
-                margin-top: 0px;
-            }
-            100% {
-                margin-top: -540px;
-            }
-        }   
-        .empty{
-                height: 6vw;
-            }
-    .arrow-down{
-        width: 1.5vw;
-        height: 1.5vw;
-        border-top: .6vw solid rgb(95, 188, 250);
-        border-left: .6vw solid rgb(95, 188, 250);
-        transform: rotate(-135deg);
-        border-radius: 10%;
-        animation: bounce 2.5s ease infinite;
-    }
-  @keyframes bounce{
-    0%, 100%{
-      transform: translateY(3px)rotate(-135deg);
-    }
-    10%{
-      transform: translateY(0px)rotate(-135deg);
-    }
-    42%{
-      transform: translateY(10px)rotate(-135deg);
-    }
-    58%{
-      transform: translateY(15px)rotate(-135deg);
-    }
-    25%, 45%, 60%, 80%, 90%{
-          transform: translateY(20px)rotate(-135deg);
-    }
-  }
-  
-.waves {
-  width: 100%;
-  height:15vh;
-}
-
-.parallax > use {
-  animation: move-forever 100s cubic-bezier(.55,.5,.45,.5)     infinite;
-}
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
-}
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
-}
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
-}
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
-}
-@keyframes move-forever {
-  0% {
-   transform: translate3d(-90px,0,0);
-  }
-  100% { 
-    transform: translate3d(85px,0,0);
-  }
-}
-@media (max-width: 768px) {
-  .waves {
-    height:40px;
-    min-height:40px;
-  }
-}
     </style>
     <body>
         <div style="  position: sticky;  z-index: -100;
@@ -166,6 +38,7 @@
         
                     <div class="arrow-down"></div>
             </div>
+
             <div id="content1-part2">
                 <div class="slideshow">
                     <h4 class="wordCarousel">
@@ -180,6 +53,138 @@
                   </h4>
                   </div>
             </div>
+            <div id="content1-part3">
+              <div class="part3-box">
+                <object type="image/svg+xml" data="svg/device.svg" class="device"></object> 
+              </div>
+              <div class="part3-box2">
+                <div class="empty"></div>
+                <div class="header">I have experience in</div> 
+                <div class="header">developing websites ready for</div>
+                <div class="header2">Desktop & Mobile</div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+              </div>
+            </div>
+            <div id="content1-part3">
+              <div class="part3-box2" style="margin-left: 10vw; margin-top: -12vw;">
+                <div class="empty"></div>
+                <div class="slideshow">
+                  <h4 class="wordCarousel">
+                    <span>Proficient in</span><br>
+                    <div> 
+                        <ul class="flip4"> 
+                          <li>CANVAS</li>
+                          <li>SVG</li>
+                          <li>CSS</li>
+                          <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                </h4>
+                </div>
+              </div>
+              <div class="part3-box" >
+                <div class="anim-wrap" style="margin-top: -2vw; margin-right: 10vw;">
+                  <div class="anim-box-pc">
+                      <div class="anim-box-pc-screen">
+                         
+                      </div>
+                      <div class="anim-circle"></div>
+                      <div class="anim-circle2"></div>
+                  </div>
+                  <div class="pc-stand"></div>
+                  <div class="pc-stand2"></div>
+              </div>
+              </div>
+            </div>
+            <div class="header" style="margin-top: -7vw; font-size: 2.7vw;">Check out some of my works through the sidebar</div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty2"></div>
+            <div class="header">CONTACT ME AT</div>
+            <div id="content1-part4">
+              <div class="socmed">
+                <a href=#>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                <div class="top">
+                  <div class="logo-facebook-large">
+                    <div class="longpiece"></div>
+                    <div class="longpiece-none"></div>
+                    <div class="shortpiece"></div>
+                  </div>
+                </div>
+                </a>
+                <div class="bot">
+                  FACEBOOK
+                </div>
+              </div>
+              <div class="socmed">
+                <a href=#>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                <div class="top">
+                  <div class="logo-twitter-large">
+                    <div class="body"></div>
+                    <div class="body-none"></div>
+                    <div class="beak-bottom"></div>
+                    <div class="beak-bottom-none"></div>
+                    <div class="wing-bottom"></div>
+                    <div class="wing-bottom-none"></div>
+                    <div class="wing-middle"></div>
+                    <div class="wing-middle-none"></div>
+                    <div class="wing-top"></div>
+                    <div class="wing-top-none"></div>
+                    <div class="beak-top"></div>
+                    <div class="beak-top-none"></div>
+                    <div class="head"></div>
+                  </div>
+                </div>
+                </a>
+                <div class="bot">
+                  TWITTER
+                </div>
+              </div>
+              <div class="socmed">
+                <a href=#>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                <div class="top">
+                  <div class="logo-linkedin-large">
+                    <div class="i-dot"></div>
+                    <div class="i-body"></div>
+                    <div class="n-body"></div>
+                    <div class="n-curve"></div>
+                    <div class="n-curve-none"></div>
+                  </div>
+                </div>
+                </a>
+                <div class="bot">
+                  LINKEDIN
+                </div>
+              </div>
+            </div>
+            <div class="foot">chrispysoup@gmail.com |&nbsp;<a href="https://github.com/ChrisLedesma/Portfolio_BSIT3A" target="_blank">GITHUB</a></div>
+            <div  style="z-index: -100;top: 0;width:100%; margin-top: -5vw;">
+              <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+              <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+              </defs>
+              <g class="parallax">
+              <use xlink:href="#gentle-wave" x="48" y="0" fill="#160f30" />
+              <use xlink:href="#gentle-wave" x="48" y="3" fill="#2d132c" />
+              <use xlink:href="#gentle-wave" x="48" y="5" fill="#202040" />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#a72693" style="opacity: .3;" />
+              </g>
+              </svg>
+          </div>
         </div>
     </body>
 </html>
