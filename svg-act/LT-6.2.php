@@ -1,7 +1,6 @@
 <style>
     body{
         background: #080813;
-    height: 100vh;
     margin:0;
     padding:0;
     display:flex;
