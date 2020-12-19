@@ -27,7 +27,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                                 </button>
                                 <div class="dropdown-content">
                                     <a href="index.php?page=2.2">LT 2.2</a>
-                                    <a href="index.php?page=2.3">LT 2.3</a>
+                                    <a href="https://learning-task-ledesma.herokuapp.com/" target="_blank">LT 2.3</a>
                                     <a href="index.php?page=3.2">LT 3.2</a>
                                     <a href="index.php?page=3.3">LT 3.3</a>
                                     <a href="index.php?page=4.1">LT 4.1</a>
@@ -58,9 +58,6 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
                      switch ($page) { 
                         case'2.2':
                             require_once('css-act/LT-2.2.php');
-                        break;
-                        case'2.3':
-                            require_once('css-act/LT-2.3.php');
                         break;
                         case'3.2':
                             require_once('css-act/LT-3.2.php');
